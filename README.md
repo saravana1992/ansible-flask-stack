@@ -31,3 +31,7 @@ After you specify repo it takes just 2 words to spin up a webserver running spec
 
 
     vagrant up
+
+It takes 4-5 minutes to spin up server. 
+
+After it completes, open up a browser then head to http://192.168.33.10
