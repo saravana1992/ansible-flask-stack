@@ -1,0 +1,4 @@
+[program:{{ application_name }}]
+command = gunicorn app:app -b localhost:8000
+directory = /var/www/{{ application_name }}
+user = {{ application_name }}
