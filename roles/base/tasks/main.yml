@@ -1,0 +1,8 @@
+---
+
+- name: Install git, python-dev, python-pip
+  apt: name={{ item }} force=yes state=installed
+  with_items:
+    - git
+    - python-dev
+    - python-pip

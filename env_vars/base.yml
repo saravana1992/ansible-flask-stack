@@ -1,0 +1,5 @@
+---
+
+git_repo: https://github.com/mehmettaskiner/flask-skeleton.git
+application_name: flask-skeleton
+project_path: /var/www/{{ application_name }}
