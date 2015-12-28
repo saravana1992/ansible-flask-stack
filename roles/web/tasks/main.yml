@@ -1,7 +1,11 @@
 ---
 
+- include: create_users_groups.yml
+
 - include: clone_git_repo.yml
 
 - include: gunicorn.yml
+
+- include: supervisor.yml
 
 - include: nginx.yml
