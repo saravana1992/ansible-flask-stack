@@ -2,3 +2,6 @@
 
 - name: Clone the Git repo
   git: repo={{ git_repo }} dest={{ project_path }}
+
+- name: Install requirements of project via pip
+  pip: requirements={{ project_path }}/requirements.txt
